@@ -1,69 +1,86 @@
 <!doctype html>
-<html lang="en-us">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Contact | Payam Asem</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</head>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-<body>
+    <title>Bootstrap Portfolio</title>
+  </head>
+  <body class="mainBody">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Payam Asem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+      
     <div class="container">
-            <div class="row">
-              <nav class="navbar navbar-default navbar-fixed-top">
-                  <div class="container">
-                  <div class="col-lg-6"><h1>Payam Asem</h1></div>
-                  <h4>
-                  <div class="col-lg-2"><a href="index.html">About |</a></div>
-                  <div class="col-lg-2"><a href="portfolio.html">Portfolio |</a></div>
-                  <div class="col-lg-2"><a href="contact.html">Contact</a></div> 
-                  </h4>
-                  </div>
-              </nav>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 mainContent">
+          <h1>Contact Me</h1>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input type="email" class="form-control" placeholder="ex: John Appleseed">
             </div>
-
-      <br><br><br><br><br><br><br><br>
-
-    <div class="row">
-      <div class="col-lg-6">
-        <h1>Contact</h1>
-          <form id="contact-form">
-            <ul>
-              <li>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="John Appleseed" required="required">
-              </li>
-              <li>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-              </li>
-              <li>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required="required"></textarea>
-              </li>
-            </ul>
-            <input type="submit">
+            <div class="form-group">
+              <label for="exampleInputPassword1">Email</label>
+              <input type="password" class="form-control" placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
-      </div>
-  
-      <div class="col-lg-2"></div>
-   
-      <div class=col-lg-4>
-        <h2>Connect with Me</h2>
-        <a href="#"><img height="20%" width="20%" src="assets/images/github.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img height="20%" width="20%" src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img height="20%" width="20%" src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
-      </div>
- 
-  </div>
 
-    <div class="row">
-      <div class="col-lg-12">
-        Copyright &copy; 2018 Payam Asem
+        </div>
+        <div class="col-lg-3 ml-auto sideBar">
+          <h4>Connect With Me</h4>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"><img src="assets/images/github.png" alt="my github account"/></a></li>
+            <li class="list-inline-item"><a href="#"><img src="assets/images/linkedin.png" alt="my linkedin account"/></a></li>
+            <li class="list-inline-item"><a href="#"><img src="assets/images/stackoverflow.png" alt="my stackoverflow account"/></a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
-</div>
-</body>
+    <footer class="footer">
+      <div class="container-fluid">
+        <span class="text-muted">Copyright &copy; 2018 Payam Asem</span>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+  </body>
 </html>

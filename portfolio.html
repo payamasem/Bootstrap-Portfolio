@@ -1,71 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-<head>
-    <meta charset="UTF-8">
-    <title>About | Payam Asem</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</head>
-<body>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
+    <title>Bootstrap Portfolio</title>
+  </head>
+  <body class="mainBody">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Payam Asem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+      
     <div class="container">
       <div class="row">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-            <div class="col-lg-6"><h1>Payam Asem</h1></div>
-            <h4>
-            <div class="col-lg-2"><a href="index.html">About |</a></div>
-            <div class="col-lg-2"><a href="portfolio.html">Portfolio |</a></div>
-            <div class="col-lg-2"><a href="contact.html">Contact</a></div> 
-            </h4>
+        <div class="col-lg-8 mainContent">
+          <h1>Portfolio</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolioItem">
+                <img class="card-img-top" src="assets/images/hangman.jpg" alt="hangman">
+                <div class="titleStrip">
+                  <p>Hangman</p>
+                </div>
+              </div>
             </div>
-        </nav>
+            <div class="col-md-6">
+              <div class="portfolioItem">
+                <img class="card-img-top" src="assets/images/rpggame.jpg" alt="RPG Game">
+                <div class="titleStrip">
+                  <p>RPG Game</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolioItem">
+                <img class="card-img-top" src="assets/images/trivia.jpg" alt="Trivia game">
+                <div class="titleStrip">
+                  <p>Trivia Game</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolioItem">
+                <img class="card-img-top" src="assets/images/berkeley.png" alt="Berkeley Info Widget">
+                <div class="titleStrip">
+                  <p>Berkeley Info Widget</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolioItem">
+                <img class="card-img-top" src="assets/images/rockpaper.jpg" alt="Rock Paper Scissors">
+                <div class="titleStrip">
+                  <p>Rock Paper Scissors</p>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="col-lg-3 ml-auto sideBar">
+          <h4>Connect With Me</h4>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"><img src="assets/images/github.png" alt="my github account"/></a></li>
+            <li class="list-inline-item"><a href="#"><img src="assets/images/linkedin.png" alt="my linkedin account"/></a></li>
+            <li class="list-inline-item"><a href="#"><img src="assets/images/stackoverflow.png" alt="my stackoverflow account"/></a></li>
+          </ul>
+        </div>
       </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <span class="text-muted">Copyright &copy; 2018 Payam Asem</span>
       </div>
+    </footer>
 
-  
-<!-- Main section starts here -->
-<br><br><br><br><br><br><br><br>
-<!-- main navigation panels start here -->
-  <div class="row">
-   <div class="col-lg-6">
-        <h1>Portfolio</h1>
-          <div>
-            <img height="30%" width="30%" src="assets/images/hangman.jpg" alt="hangman">
-            <h3>Hangman</h3>
-          </div>
-          <div>
-            <img height="30%" width="30%" src="assets/images/rpggame.jpg" alt="RPG Game">
-            <h3>RPG Game</h3>
-          </div>
-          <div>
-            <img height="30%" width="30%" src="assets/images/trivia.jpg" alt="Trivia Game">
-            <h3>Trivia Game</h3>
-          </div>
-          <div>
-            <img height="30%" width="30%" src="assets/images/berkeley.png" alt="Berkeley Info Widget">
-            <h3>Berkeley Info Widget</h3>
-          </div>
-          <div>
-            <img  height="30%" width="30%" src="assets/images/rockpaper.jpg" alt="Rock Paper Scissors">
-            <h3>Rock Paper Scissors</h3>
-          </div>
-          </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
-<!-- Side naivation bar starts here -->
-      <div class="col-lg-6">
-        <h2>Connect with Me</h2>
-        <a href="#"><img height="20%" width="20%" src="assets/images/github.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img height="20%" width="20%" src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img height="20%" width="20%" src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-   
-  </div>
-
-  <div class="row">
-  <div class="col-lg-12">
-      Copyright &copy; 2017 Julie Burk
-     </div></div>
-</body>
+  </body>
 </html>

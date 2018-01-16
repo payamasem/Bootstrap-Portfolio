@@ -1,0 +1,165 @@
+.mainBody{
+	background-image: url("../images/concrete_seamless.png");
+	width:100%;
+	min-height: 100%;
+	margin-bottom: 100px;
+}
+
+.mainContent{
+	background-color: #fff;
+	border:1px solid #ddd;
+	padding:20px;
+	margin-bottom: 100px;
+	overflow:hidden;
+}
+
+nav ul li a{
+	border-right:1px solid #eee;
+}
+
+nav ul li:last-child a{
+	border-right:0;
+}
+
+.mainContent img{
+	margin: 0 30px 30px 0;
+}
+
+.sideBar{
+	background-color: #fff;
+	border:1px solid #ddd;
+	padding:20px;
+	height:200px;
+}
+
+.sideBar li a img{
+	max-width:48px;
+	min-width:24px;
+	width:auto;
+}
+
+nav{
+	margin-bottom:30px;
+	background-color:#fff;
+	border-bottom:1px solid #ddd;
+}
+
+nav .navbar-brand{
+	background-color: #4aaaa5;
+	padding:20px;
+	margin: -.5rem -1rem;
+}
+
+.navbar-light .navbar-brand {
+	color:#fff;
+}
+
+h1, h2, h3, h4{
+	padding-bottom:20px;
+	border-bottom:2px solid #eee;
+	margin-bottom:20px;
+	font-family:serif;
+	color:#4aaaa5;
+}
+
+.titleStrip{
+	background-color:#4aaaa5;
+	color:#fff;
+	text-align:center;
+	padding:20px;
+	position: relative;
+  z-index: 2;
+  margin: -120px 0 50px 0
+}
+
+.btn-primary{
+	background-color: #4aaaa5;
+}
+
+footer{
+  border-top: 5px solid #4aaaa5;
+  background-color: #666;
+  color: #fff;
+  height: 100px;
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  z-index: 20;
+  margin-top:100px;
+}
+
+.portfolioItem{
+	overflow: hidden;
+}
+
+/* CSS ANIMATIONS  */
+
+
+/* Image fly in from the left  */
+
+.mainContent img{
+	-webkit-animation-name: imgMove; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: imgMove;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes imgMove {
+    from {left:200px;}
+    to {left:0px;}
+}
+
+/* Standard syntax */
+@keyframes imgMove {
+    from {left:200px;}
+    to {left:0px;}
+}
+
+
+/* Text Fly in from the right  */
+
+.mainContent p{
+	-webkit-animation-name: txtMove; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: txtMove;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes txtMove {
+    from {left:-200px;}
+    to {left:0px;}
+}
+
+/* Standard syntax */
+@keyframes txtMove {
+    from {left:-200px;}
+    to {left:0px;}
+}
+
+
+/* Title sTrip slide in and fade color */
+
+.titleStrip {
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: #4aaaa5; left:-200px;}
+    to {background-color: #0fe3d8; left:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: #4aaaa5; left:-200px;}
+    to {background-color: #0fe3d8; left:0px;}
+}

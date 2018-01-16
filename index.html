@@ -1,59 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en-us">
 
 <head>
-  	<meta charset="UTF-8">
-   	<title>About | Payam Asem</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</head>
-<body>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<div class="container">
-			<div class="row">
-				<nav class="navbar navbar-default navbar-fixed-top">
-	  				<div class="container">
-						<div class="col-lg-6"><h1>Payam Asem</h1></div>
-						<h4>
-						<div class="col-lg-2"><a href="index.html">About |</a></div>
-						<div class="col-lg-2"><a href="portfolio.html">Portfolio |</a></div>
-						<div class="col-lg-2"><a href="contact.html">Contact</a></div> 
-						</h4>
-	  				</div>
-				</nav>
-			</div>
-	  	</div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
-  
-<!-- Main section starts here -->
-<br><br><br><br><br><br><br><br>
-<div class="container">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-	<div class="row">
-			<div class="col-lg-5"><h2>About Me</h2></div>
-		 	<div class="col-lg-7"><h2></h2></div>
-	</div>
-	
-	<div class="row"> 
-		<div class="col-sm-4">  	  
-      		<img height ="50%" width="50%" src="assets/images/aboutmephoto.jpg" alt="Payam Asem">I am a recent UC Berkeley graduate looking for full-time employment in the marketing and advertising industry. I am currently enrolled in a full stack coding bootcamp offered by UC extension. I'm hoping to build my knowledge of web development in order to use some of these practical skills in the workplace..<br>Insert more bio here...
-      	</div>
-		<div class="col-sm-3"></div>
-     	<div class= "col-sm-3">
-        <h2>Connect with Me</h2>
-          <a href="#"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
-          <a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
-          <a href="#"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
-      	</div>
- 
+    <title>Portfolio With Bootstrap</title>
+  </head>
+<body class="mainBody">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Payam Asem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mainContent">
+          <h1>About Me</h1>
+          <img class="img-fluid float-left" src="assets/images/aboutmephoto.jpg">
+          <p>I am a recent UC Berkeley graduate looking for full-time employment in the marketing and advertising industry. I am currently enrolled in a full stack coding bootcamp offered by UC extension. I'm hoping to build my knowledge of web development in order to use some of these practical skills in the workplace.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-lg-3 ml-auto sideBar">
+          <h4>Connect With Me</h4>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"><img src="assets/images/github.png" alt="my github account"></a></li>
+            <li class="list-inline-item"><a href="#"><img src="assets/images/linkedin.png" alt="my linkedin account"></a></li>
+            <li class="list-inline-item"><a href="#"><img src="assets/images/stackoverflow.png" alt="my stackoverflow account"></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-	<div class="row">
-	<div class="col-lg-12">
-      Copyright &copy; 2018 Payam Asem
-     </div></div>
+    <footer class="footer">
+      <div class="container-fluid">
+        <span class="text-muted">Copyright © 2018 Payam Asem</span>
+      </div>
+    </footer>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
-</div>
+  
 </body>
 </html>
