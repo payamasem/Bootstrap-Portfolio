@@ -1,3 +1,17 @@
+
+
+nav{
+	margin-bottom:30px;
+	background-color:#fff;
+	border-bottom:1px solid #ddd;
+}
+
+nav .navbar-brand{
+	background-color: #4aaaa5;
+	padding:20px;
+	margin: -.5rem -1rem;
+}
+
 .mainBody{
 	background-image: url("../images/concrete_seamless.png");
 	width:100%;
@@ -38,17 +52,6 @@ nav ul li:last-child a{
 	width:auto;
 }
 
-nav{
-	margin-bottom:30px;
-	background-color:#fff;
-	border-bottom:1px solid #ddd;
-}
-
-nav .navbar-brand{
-	background-color: #4aaaa5;
-	padding:20px;
-	margin: -.5rem -1rem;
-}
 
 .navbar-light .navbar-brand {
 	color:#fff;
@@ -58,18 +61,18 @@ h1, h2, h3, h4{
 	padding-bottom:20px;
 	border-bottom:2px solid #eee;
 	margin-bottom:20px;
-	font-family:serif;
+	font-family:sans-serif;
 	color:#4aaaa5;
 }
 
 .titleStrip{
-	background-color:#4aaaa5;
-	color:#fff;
-	text-align:center;
-	padding:20px;
-	position: relative;
-  z-index: 2;
-  margin: -120px 0 50px 0
+background-color:#4aaaa5;
+color:#fff;
+text-align:center;
+padding:20px;
+position: relative;
+z-index: 2;
+margin: -120px 0 50px 0
 }
 
 .btn-primary{
@@ -77,11 +80,6 @@ h1, h2, h3, h4{
 }
 
 footer{
-  border-top: 5px solid #4aaaa5;
-  background-color: #666;
-  color: #fff;
-  height: 100px;
-  clear: both;
   text-align: center;
   padding: 20px;
   font-family: sans-serif;
@@ -90,6 +88,11 @@ footer{
   width:100%;
   z-index: 20;
   margin-top:100px;
+  border-top: 5px solid #4aaaa5;
+  background-color: #666;
+  color: #fff;
+  height: 100px;
+  clear: both;
 }
 
 .portfolioItem{
